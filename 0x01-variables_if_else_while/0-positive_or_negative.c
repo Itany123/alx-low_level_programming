@@ -2,21 +2,21 @@
 #include<time.h>
 #include<stdio.h>
 /**
- * main - Enty point
- *
- * Return:always return 0
- *
+ * main - Prints a random number and states whether
+ * it is positive, negative, or zero.
+ * Return: Always 0.
  */
 int main(void)
 {
 int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-if (n < 0)
-printf ("%d  is negaitive\n", n);
-else if (n > 0)
+/* your code goes there */
+if (n > 0)
 printf("%d is positive\n", n);
-else if (n == 0)
-printf("%d is Zero\n", n);
+else if (n < 0)
+printf("%d is negative\n", n);
+else
+printf("%d is zero\n", n);
 return (0);
 }
