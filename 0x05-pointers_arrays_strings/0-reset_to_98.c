@@ -4,7 +4,7 @@
  * reset_to_98-function that takes apointer to an int as parameter and
  * updates the value it points to be 98.
  *
- * on: this is the entry
+ * @n: this is the entry
  */
 void reset_to_98(int *n)
 {
