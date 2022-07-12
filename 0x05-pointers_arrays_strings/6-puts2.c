@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * put2- prints every other character in string
  * @str: pointer to string
